@@ -1,5 +1,7 @@
 # React hospital Dashboard
 
+## 🔗 Links
+https://6498b983ce5f6e4f54760f68--charming-llama-713aa0.netlify.app/
 ## Authors
 - [Muhahmmad Izaan saqib](https://github.com/IzaanArain)
 
