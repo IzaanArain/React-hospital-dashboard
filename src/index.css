@@ -293,7 +293,7 @@ ul li {
   font-weight: bold;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1500px) {
   .dashboard{
     height: auto; 
   }
