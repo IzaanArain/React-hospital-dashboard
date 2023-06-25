@@ -1,0 +1,26 @@
+.Chat-container{
+    width: 10vw;
+    background: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.chat-box{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 1px solid#45a170;
+    background: #45a170;
+    /* background-image: url("./assets/Framechat.jpg") no-repeat center center/ cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+
+img{
+    width: 71px;
+    height: 61px;
+}

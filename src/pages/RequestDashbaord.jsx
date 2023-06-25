@@ -1,6 +1,7 @@
 import {Fragment} from 'react'
 import RequestBox from '../components/RequestBox'
 import { useSelector,useDispatch } from 'react-redux'
+import ChatBox from '../components/ChatBox'
 
 const RequestDashbaord = () => {
   const {requests}=useSelector((state)=>state.request)
@@ -18,6 +19,7 @@ const RequestDashbaord = () => {
     })}
     </div>
     </div>
+    <ChatBox/>
     </>
   )
 }
