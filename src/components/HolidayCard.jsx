@@ -9,7 +9,7 @@ const HolidayCard = ({ holiday }) => {
       {rare ? (
         <>
           <div className="rare_card">
-          {/* <RareFind/> */}
+         <RareFind/>
           <div className="rare_holiday_card">
             {/* <h1>{id}</h1> */}
             <HolidayLogo/>

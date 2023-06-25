@@ -50,6 +50,10 @@ ul li {
   border-radius: 10px;
   font-family: "Poppins";
 }
+#logout_btn:hover{
+  background: greenyellow;
+  color: #494949;
+}
 .list_item a {
   /* background-color: #d96a6b; */
   text-decoration: none;
@@ -217,6 +221,7 @@ ul li {
 }
 .rare_card {
   width: 28%;
+  position: relative;
 }
 
 .rare_holiday_card {
@@ -228,19 +233,28 @@ ul li {
   color: #85c371;
   font-family: "Lato";
   padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #rareFind {
   color: white;
   background-color: #d96a6b;
-  width: 45%;
+  width: 50%;
+  /* width: 10%; */
   padding: 9px;
   border-radius: 5px;
   text-align: center;
   font-family: "Lato";
   font-size: 12px;
-
+  float: right;
+  position: absolute;
+  top: -15px;
+  right: -50px;
 }
+
+
 
 .card_info {
   padding: 10px;
@@ -265,6 +279,11 @@ ul li {
   border-radius: 10px;
   color: #fff;
   font-family: "Lato";
+}
+
+#bookNow:hover{
+  background-color: greenyellow;
+  color: #494949;
 }
 
 #logoutText{
